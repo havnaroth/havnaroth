@@ -6,7 +6,7 @@ categories: writeup
 ---
 As usually starting with nmap 
 
-{% highlight ruby %}
+{% highlight %}
 nmap 10.10.10.169 -sV -A -Pn   
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-05 18:33 CET
 Nmap scan report for 10.10.10.169
@@ -69,4 +69,10 @@ HOP RTT      ADDRESS
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 115.11 seconds
+{% endhighlight %}
+
+
+
+{% highlight %}
+ldapsearch -H ldap://10.10.10.169 -x -b "DC=megabank,DC=local" '(ObjectClass=Person)' sAMAccountName | grep sAMAccountName
 {% endhighlight %}

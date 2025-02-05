@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title:  "HTB - RESOLUTE"
 date:   2025-02-05 20:52:24 +0100
-categories: writeup
 ---
 As usually starting with nmap 
 

@@ -6,7 +6,7 @@ categories: writeup
 ---
 As usually starting with nmap 
 
-{% highlight %}
+{% highlight ruby %}
 nmap 10.10.10.169 -sV -A -Pn   
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-05 18:33 CET
 Nmap scan report for 10.10.10.169
@@ -73,11 +73,11 @@ Nmap done: 1 IP address (1 host up) scanned in 115.11 seconds
 
 We have destinguished name for domain so lets see if we can get usernames 
 
-{% highlight %}
+{% highlight ruby %}
 ldapsearch -H ldap://10.10.10.169 -x -b "DC=megabank,DC=local" '(ObjectClass=Person)' sAMAccountName | grep sAMAccountName
 {% endhighlight %}
 
-{% highlight %}
+{% highlight ruby %}
 sAMAccountName: Guest
 sAMAccountName: DefaultAccount
 sAMAccountName: RESOLUTE$
@@ -109,7 +109,7 @@ sAMAccountName: naoki
 
 Let's enum deeper on descriptions 
 
-{% highlight %}
+{% highlight ruby %}
 description: Account created. Password set to Welcome123!   
 {% endhighlight %}
 

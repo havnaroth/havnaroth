@@ -71,8 +71,46 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 115.11 seconds
 {% endhighlight %}
 
-
+We have destinguished name for domain so lets see if we can get usernames 
 
 {% highlight %}
 ldapsearch -H ldap://10.10.10.169 -x -b "DC=megabank,DC=local" '(ObjectClass=Person)' sAMAccountName | grep sAMAccountName
 {% endhighlight %}
+
+{% highlight %}
+sAMAccountName: Guest
+sAMAccountName: DefaultAccount
+sAMAccountName: RESOLUTE$
+sAMAccountName: MS02$
+sAMAccountName: ryan
+sAMAccountName: marko
+sAMAccountName: sunita
+sAMAccountName: abigail
+sAMAccountName: marcus
+sAMAccountName: sally
+sAMAccountName: fred
+sAMAccountName: angela
+sAMAccountName: felicia
+sAMAccountName: gustavo
+sAMAccountName: ulf
+sAMAccountName: stevie
+sAMAccountName: claire
+sAMAccountName: paulo
+sAMAccountName: steve
+sAMAccountName: annette
+sAMAccountName: annika
+sAMAccountName: per
+sAMAccountName: claude
+sAMAccountName: melanie
+sAMAccountName: zach
+sAMAccountName: simon
+sAMAccountName: naoki
+{% endhighlight %}
+
+Let's enum deeper on descriptions 
+
+{% highlight %}
+description: Account created. Password set to Welcome123!   
+{% endhighlight %}
+
+So we have our password. But it appears to be default one, so we need to check if it fits for any usernames we already have. 

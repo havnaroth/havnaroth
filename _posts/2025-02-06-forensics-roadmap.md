@@ -8,7 +8,7 @@ tags : [forensics]
 
 Roadmap for preparing descriptions over artifacts 
 
-- [x] UAL - needs a bit rework tho <https://havnaroth.github.io/posts/forensics-ual>
+- [x] [**ual**][UAL].
 - [ ] Amcache
 - [ ] Shimcache
 - [ ] Shellbags 
@@ -22,3 +22,6 @@ Roadmap for preparing descriptions over artifacts
 - [ ] WebBrowsers history 
 - [ ] Scheduled tasks
 - [ ] AV quarantine/logs 
+
+
+[ual]: <https://havnaroth.github.io/posts/forensics-ual>

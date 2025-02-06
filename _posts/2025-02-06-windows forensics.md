@@ -20,10 +20,10 @@ Files are parsable with <https://github.com/EricZimmerman/Sum> and sometimes nee
 
 {% highlight ruby %}
 esentutl.exe /p Current.mdb
+...and other files
 {% endhighlight %}
 
-Parsing 
-
+Parsing using following commandline 
 
 {% highlight ruby %}
 SumECmd.exe -d C:\directory_with_files --csv C:\output_directory

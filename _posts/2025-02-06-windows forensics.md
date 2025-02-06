@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "User Access Logs - UAL"
+date:   2025-02-06 17:40:00 +0100
+categories: ["Windows Forensics 101"]
+---
+
+Windows User Access Logs (UAL)
+
+Present only on hosts with installed Windows Server 2012+ 
+
+{% highlight ruby %}
+    C:\Windows\System32\LogFiles\SUM\Current.mdb
+    C:\Windows\System32\LogFiles\SUM\SystemIdentity.mdb
+    C:\Windows\System32\LogFiles\SUM\<GUID>.mdb
+{% endhighlight %}
+
+Files are parsable with <https://github.com/EricZimmerman/Sum> and sometimes need to be fixed with following command 
+
+
+{% highlight ruby %}
+esentutl.exe /p Current.mdb
+{% endhighlight %}
+
+Parsing 
+
+
+{% highlight ruby %}
+SumECmd.exe -d C:\directory_with_files --csv C:\output_directory
+{% endhighlight %}
+
+
+After fixing and parsing set of CSV files is generated that can be fed into Timeline Explorer for further review 

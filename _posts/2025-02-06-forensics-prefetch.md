@@ -31,12 +31,6 @@ Where `EnablePrefetcher` values mean
 - 1 - Application Launch Prefetch
 - 2 - Boot Prefetch
 
-And `EnableSuperfetch` values mean 
-
-- 0 - Disabled
-- 1 - Application Launch Prefetch
-- 2 - Boot Prefetch
-
 To analyze prefetch files we can utilize one of Eric Zimmermann tools, but also surely big parsers like Belkasoft, FTK, Encase or Autopsy can do it for us.
 For EZ its tool PECmd - <https://ericzimmerman.github.io/#!index.md>
 

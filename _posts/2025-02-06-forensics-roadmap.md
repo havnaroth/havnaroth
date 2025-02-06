@@ -8,7 +8,7 @@ tags : [forensics]
 
 Roadmap for preparing descriptions over artifacts 
 
-- [x] [**UAL**][ual]
+- [x] [**UAL**][ual] - needs some additional love
 - [ ] Amcache
 - [ ] Shimcache
 - [ ] Shellbags 

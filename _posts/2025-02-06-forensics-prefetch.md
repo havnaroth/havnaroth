@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Windows Forensics 101 - Prefetch"
-date:   2025-02-06 17:40:00 +0100
+date:   2025-02-06 22:35:00 +0100
 categories: ["Windows Forensics 101"]
 tags : [forensics]
 ---
@@ -23,7 +23,6 @@ _Regedit_
 Under that path following values can be set 
 
 - `EnablePrefetcher` - 0, 1, 2
-- `EnableSuperfetch` - 0, 1, 2
 
 Where `EnablePrefetcher` values mean 
 

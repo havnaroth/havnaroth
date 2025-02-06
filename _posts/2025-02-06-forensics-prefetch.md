@@ -17,6 +17,9 @@ This artifact is not present on Windows Server hosts by default however that set
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters
 ```
 
+![img-description](/assets/img/windows-regedit-prefetch.png)
+_Regedit_
+
 Under that path following values can be set 
 
 - `EnablePrefetcher` - 0, 1, 2
@@ -33,9 +36,3 @@ And `EnableSuperfetch` values mean
 - 0 - Disabled
 - 1 - Application Launch Prefetch
 - 2 - Boot Prefetch
-
-
-![img-description](/assets/img/windows-regedit-prefetch.png)
-_Regedit_
-
-

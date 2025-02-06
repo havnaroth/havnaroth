@@ -25,9 +25,8 @@ esentutl.exe /p Current.mdb
 
 Parsing using following commandline 
 
-{% highlight ruby %}
-SumECmd.exe -d C:\directory_with_files --csv C:\output_directory
-{% endhighlight %}
+`SumECmd.exe -d C:\directory_with_files --csv C:\output_directory`
 
 
 After fixing and parsing set of CSV files is generated that can be fed into Timeline Explorer for further review 
+<https://ericzimmerman.github.io/#!index.md>

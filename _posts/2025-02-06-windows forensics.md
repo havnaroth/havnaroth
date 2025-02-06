@@ -10,11 +10,11 @@ Windows User Access Logs (UAL)
 
 Present only on hosts with installed Windows Server 2012+ 
 
-{% highlight ruby %}
+```text
     C:\Windows\System32\LogFiles\SUM\Current.mdb
     C:\Windows\System32\LogFiles\SUM\SystemIdentity.mdb
     C:\Windows\System32\LogFiles\SUM\<GUID>.mdb
-{% endhighlight %}
+```
 
 Files are parsable with <https://github.com/EricZimmerman/Sum> and sometimes need to be fixed with following command 
 

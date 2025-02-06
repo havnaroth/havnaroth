@@ -19,10 +19,10 @@ Present only on hosts with installed Windows Server 2012+
 Files are parsable with <https://github.com/EricZimmerman/Sum> and sometimes need to be fixed with following command 
 
 
-{% highlight ruby %}
+```text
 esentutl.exe /p Current.mdb
 ...and other files
-{% endhighlight %}
+```
 
 Parsing using following commandline 
 

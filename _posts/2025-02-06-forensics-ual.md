@@ -8,7 +8,7 @@ tags : [forensics]
 
 Roadmap for preparing descriptions over artifacts 
 
-- [x] UAL - needs a bit rework tho
+- [x] UAL - needs a bit rework tho <https://havnaroth.github.io/posts/windows-forensics-list/>
 - [ ] Amcache
 - [ ] Shimcache
 - [ ] Shellbags 

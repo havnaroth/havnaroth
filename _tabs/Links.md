@@ -11,4 +11,7 @@ order: 1
 > <https://github.com/NUKIB/maldump>
 
 AD attack mindmap 
- > https://orange-cyberdefense.github.io/ocd-mindmaps/
+ > <https://orange-cyberdefense.github.io/ocd-mindmaps/>
+
+AD explaination Daniel Stefaniak
+ > <https://www.youtube.com/watch?v=CNCMHd82Ul0>

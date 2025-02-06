@@ -89,8 +89,10 @@ Files referenced: 134
 ```
 
 For the sake of clarity i've removed some irrelevant data from output, but what we can clearly observe is following informations
-- What file was processed (pf file)
-- When record was created - and we can associate that entry with first execution of the binary in the OS (assuming pf filese were not removed previously)
+- What file was processed (which pf file)
+- When record was created - and we can associate that entry with first execution of the binary in the OS (assuming pf filese were not removed previously).
 - When was the last time when binary was executed 
 - How many times binary was executed (with last 3 times) 
 - And from referenced directories we can find the path with our binary from where it was executed. 
+
+Some sources tells that prefetch files are written approximately 10 seconds after execution, however i've never come across the case where these 10 seconds were crucial to investigation, and never checked if this is indeed true.

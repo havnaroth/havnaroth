@@ -11,7 +11,7 @@ Windows Prefetch
 Prefetch is stored in location `C:\Windows\Prefetch` as *.pf files. 
 
 Those files serve performence improvement of applications and are created upon executing binary. 
-This artifact is not present on Windows Server hosts by default however that setting can be altered with registry change under following path
+This artifact is not present on Windows Server hosts by default however that setting can be altered with registry change under following path.
 
 ```text
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters
@@ -39,3 +39,10 @@ And `EnableSuperfetch` values mean
 
 To analyze prefetch files we can utilize one of Eric Zimmermann tools, but also surely big parsers like Belkasoft, FTK, Encase or Autopsy can do it for us.
 For EZ its tool PECmd - <https://ericzimmerman.github.io/#!index.md>
+
+PECmd as all EZ tools have help section that can be easily accessed with `-h` argument.
+
+![img-description](/assets/img/windows-prefetch-pecmd.png)
+_PECmd_
+
+

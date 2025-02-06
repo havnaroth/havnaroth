@@ -4,8 +4,9 @@ order: 1
 ---
 
 
-<https://www.revshells.com/>
-
+> Generator for rev shells 
+> <https://www.revshells.com/>
+{: .prompt-tip }
 
 > Multi-quarantine extractor for system mounted volumes 
 > <https://github.com/NUKIB/maldump>

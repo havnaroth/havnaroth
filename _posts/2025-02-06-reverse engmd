@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "RE Notes "
+title:  "RE Notes"
 date:   2025-02-06 17:40:00 +0100
 categories: ["Notes"]
 ---
@@ -13,3 +13,7 @@ PE Studio
 PowershellRunBox 
 <https://github.com/ohjeongwook/PowerShellRunBox>
 
+DetectItEasy 
+<https://github.com/horsicq/Detect-It-Easy>
+if its .net sample those can be disassembled easily with dnSpy 
+<https://github.com/dnSpy/dnSpy>

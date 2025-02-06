@@ -3,7 +3,7 @@ layout: post
 title:  "Windows Forensics 101 - User Access Logs - UAL"
 date:   2025-02-06 17:40:00 +0100
 categories: ["Windows Forensics 101"]
-tags : [forensics, windows, ual]
+tags : [forensics]
 ---
 
 Windows User Access Logs (UAL)

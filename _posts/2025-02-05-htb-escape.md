@@ -102,11 +102,10 @@ smbmap -H 10.10.11.202 -u 'Guest' -p ''
 ![img-description](/assets/img/htb_escape_smbmap.png)
 _SMBMap_
 
-We can see that $IPC nad Public shares are accessible. 
+We can see that $IPC and Public shares are accessible. 
 
 ```shell
 smbclient //10.10.11.202/Public -U Guest%
-
 ```
 ![img-description](/assets/img/htb_escape_smbclient.png)
 _SMBClient_

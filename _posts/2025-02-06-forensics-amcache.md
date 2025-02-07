@@ -18,7 +18,7 @@ Amcache is located under path
 C:\Windows\AppCompat\Programs\Amcache.hve
 ```
 
-It can be parsed among the others with EZ tool called [**AmcacheParser **][parser]
+It can be parsed among the others with EZ tool called [**AmcacheParser **][amcacheparser]
 
 ![img-description](/assets/img/windows-amcacheparser.png)
 _AmcacheParser from EZ_

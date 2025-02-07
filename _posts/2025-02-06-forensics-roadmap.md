@@ -9,7 +9,7 @@ tags : [forensics]
 Roadmap for preparing descriptions over artifacts 
 
 - [x] [**UAL**][ual] - needs some additional love
-- [ ] Amcache
+- [x] [**Amcache**][amcache]
 - [ ] Shimcache
 - [ ] Shellbags 
 - [ ] Jumplists
@@ -26,3 +26,4 @@ Roadmap for preparing descriptions over artifacts
 
 [ual]: <https://havnaroth.github.io/posts/forensics-ual>
 [prefetch]: <https://havnaroth.github.io/posts/forensics-prefetch/>
+[amcache]: <https://havnaroth.github.io/posts/forensics-amcache/>

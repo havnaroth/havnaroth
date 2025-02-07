@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Windows Forensics 101 - Roadmap"
-date:   2025-02-06 21:57:00 +0100
+date:   2025-02-05 21:57:00 +0100
 categories: ["Windows Forensics 101"]
 tags : [forensics]
 ---

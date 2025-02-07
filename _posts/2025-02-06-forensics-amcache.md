@@ -18,13 +18,13 @@ Amcache is located under path
 C:\Windows\AppCompat\Programs\Amcache.hve
 ```
 
-It can be parsed among the others with EZ tool called [**AmcacheParser **][amcacheparser]
+It can be parsed among the others with EZ tool called [**AmcacheParser**][amcacheparser]
 
 ![img-description](/assets/img/windows-amcacheparser.png)
 _AmcacheParser from EZ_
 
 
-[amcacheparser]: <https://havnaroth.github.io/posts/forensics-ual>
+
 
 So since we know what we need to analyze and how to analyze it we can proceed. 
 
@@ -81,3 +81,4 @@ And from that view we can learn what files were executed, when were they execute
 What is interesting is the fact that provided SHA1 value is calulated for only first 31,457,280 bytes of binary.
 So if file is larger then this hash may provide inaccurate result. 
 
+[amcacheparser]: <https://ericzimmerman.github.io/#!index.md>

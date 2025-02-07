@@ -116,5 +116,14 @@ There was also mention of some Ryan at the beggining, but without surname.
 ![img-description](/assets/img/htb_escape_pdf_content.png)
 _Grabbed PDF file_
 
+With those creds we can give it a try to access MSSQL service. First commandline didnt work because i didn't add sequel.htb to my /etc/hosts
+
+```text
+mssqlclient.py sequel.htb/PublicUser:GuestUserCantWrite1@10.10.11.202
+```
+
+![img-description](/assets/img/htb_escape_mssql.png)
+_Impacket MSSQL connection_
+
 
 ... TBC 

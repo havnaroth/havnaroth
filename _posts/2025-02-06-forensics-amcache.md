@@ -77,8 +77,8 @@ So we open that up with TimelineExplorer for nice clear view.
 ![img-description](/assets/img/windows-amcache-timeline.png)
 _AmcacheParser results opened in TimelineExplorer_
 
-And from that view we can learn what files were executed, when were they executed and SHA1 of that file. 
-What is interesting is the fact that provided SHA1 value is calulated for only first 31,457,280 bytes of binary.
+And from that view we can learn what binaries were executed, when were they executed and SHA1 of that file. 
+What is important here - is the fact that provided SHA1 value is calulated for only first 31,457,280 bytes of binary.
 So if file is larger then this hash may provide inaccurate result. 
 
 [amcacheparser]: <https://ericzimmerman.github.io/#!index.md>

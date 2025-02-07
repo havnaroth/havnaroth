@@ -110,8 +110,8 @@ smbclient //10.10.11.202/Public -U Guest%
 ![img-description](/assets/img/htb_escape_smbclient.png)
 _SMBClient_
 
-Downloaded document leaks us some data - one set of credentials that hopefully will work, and one additional username. 
-There was also mention of some Ryan at the beggining, but without surname. 
+Downloaded document leaks us some data - one set of credentials that hopefully will work, and one additional username of Brandon.
+There was also mention of some Ryan and Tom at the beggining, but without surname. 
 
 ![img-description](/assets/img/htb_escape_pdf_content.png)
 _Grabbed PDF file_

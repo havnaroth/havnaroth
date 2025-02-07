@@ -70,7 +70,7 @@ The output is way longer but we dont need to see it all as the essence is stored
 ![img-description](/assets/img/windows-amcache-yield.png)
 _AmcacheParser yield_
 
-Usually the thing thats most interesting is `20250207120402_Amcache_UnassociatedFileEntries.csv`. 
+Usually the thing thats most interesting is `20250207120402_Amcache_UnassociatedFileEntries.csv` however this may depend on kind of conducted investigation.
 
 So we open that up with TimelineExplorer for nice clear view. 
 

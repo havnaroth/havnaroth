@@ -3,7 +3,7 @@ layout: post
 title:  "Windows Forensics 101 - Event Logs"
 date:   2025-02-07 11:58:00 +0100
 categories: ["Windows Forensics 101"]
-tags : [forensics]
+tags : [forensics] [chainsaw] [nirsoft] [fulleventlogview]
 ---
 
 Windows Event Logs 
@@ -32,7 +32,7 @@ This allows filtering events or serching with certain EventIDs.
 ![img-description](/assets/img/forensics-windows_eventlogs.png)
 _Events loaded into FullEventLogView_
 
-This data can be also ripped using [**Chainsaw**][chainsaw] which is tool developed by WithSecure Countercept.
+*.evtx files can be also ripped using [**Chainsaw**][chainsaw] which is tool developed by WithSecure Countercept.
 
 ![img-description](/assets/img/events-chainsaw.png)
 _Chainsaw_

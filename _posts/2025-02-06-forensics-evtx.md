@@ -26,17 +26,17 @@ _Events in file system_
 
 ## How data can be analyzed
 
-These files can be parsed using system tool called Event Viewer, or using third party software like for instance [**NirSoft FullEventLogView**][fulleventlogview]. 
+These files can be parsed using system tool called Event Viewer, or using third party software like for instance [**NirSoft FullEventLogView**][nfulleventlogview]. 
 This allows filtering events or serching with certain EventIDs.
 
 ![img-description](/assets/img/forensics-windows_eventlogs.png)
 _Events loaded into FullEventLogView_
 
-*.evtx files can be also ripped using [**Chainsaw**][chainsaw] which is tool developed by WithSecure Countercept.
+*.evtx files can be also ripped using [**Chainsaw**][chainsaw_link] which is tool developed by WithSecure Countercept.
 
 ![img-description](/assets/img/events-chainsaw.png)
 _Chainsaw_
 
 
-[chainsaw]:<https://github.com/WithSecureLabs/chainsaw>
-[fulleventlogview]: <https://www.nirsoft.net/utils/full_event_log_view.html>
+[chainsaw_link]:<https://github.com/WithSecureLabs/chainsaw>
+[nfulleventlogview]: <https://www.nirsoft.net/utils/full_event_log_view.html>

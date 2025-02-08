@@ -17,7 +17,7 @@ Roadmap for preparing descriptions over artifacts
 - [ ] UserAssist
 - [ ] RDPCache 
 - [x] [**Prefetch**][prefetch]
-- [ ] EVTX
+- [x] [**Event logs**][evtx]
 - [ ] RecentDocs
 - [ ] WebBrowsers history 
 - [ ] Scheduled tasks
@@ -29,3 +29,4 @@ Roadmap for preparing descriptions over artifacts
 [prefetch]: <https://havnaroth.github.io/posts/forensics-prefetch/>
 [amcache]: <https://havnaroth.github.io/posts/forensics-amcache/>
 [pca]: <https://havnaroth.github.io/posts/forensics-pca/>
+[evtx]: <https://havnaroth.github.io/posts/forensics-evtx/>

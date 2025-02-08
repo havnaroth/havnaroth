@@ -32,6 +32,8 @@ This allows filtering events or serching with certain EventIDs.
 ![img-description](/assets/img/forensics-windows_eventlogs.png)
 _Events loaded into FullEventLogView_
 
+This data can be also ripped using [**Chainsaw**][chainsaw] which is tool developed by WithSecure Countercept.
 
 
+[chainsaw]:<https://github.com/WithSecureLabs/chainsaw>
 [fulleventlogview]: <https://www.nirsoft.net/utils/full_event_log_view.html>

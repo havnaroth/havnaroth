@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Windows Forensics 101 - Event Logs"
-date:   2025-02-07 11:58:00 +0100
+date:   2025-02-08 14:53:00 +0100
 categories: ["Windows Forensics 101"]
 tags : [forensics] [chainsaw] [nirsoft] [fulleventlogview]
 ---

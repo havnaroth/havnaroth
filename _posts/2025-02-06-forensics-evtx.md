@@ -20,7 +20,9 @@ Event logs are stored in location:
  `C:\Windows\System32\winevt\Logs\` 
 ```
 
-FOTO
+![img-description](/assets/img/windows-evtx_logs.png)
+_Events in file system_
+
 
 ## How data can be analyzed
 

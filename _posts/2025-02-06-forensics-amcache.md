@@ -3,7 +3,7 @@ layout: post
 title:  "Windows Forensics 101 - Amcache"
 date:   2025-02-07 11:58:00 +0100
 categories: ["Windows Forensics 101"]
-tags : [forensics]
+tags : [forensics,amcache,ericzimmerman,timelineexplorer]
 ---
 
 Windows Amcache 

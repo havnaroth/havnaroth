@@ -22,8 +22,10 @@ Roadmap for preparing descriptions over artifacts
 - [ ] WebBrowsers history 
 - [ ] Scheduled tasks
 - [ ] AV quarantine/logs 
+- [x] [**PCA**][pca]
 
 
 [ual]: <https://havnaroth.github.io/posts/forensics-ual>
 [prefetch]: <https://havnaroth.github.io/posts/forensics-prefetch/>
 [amcache]: <https://havnaroth.github.io/posts/forensics-amcache/>
+[pca]: <https://havnaroth.github.io/posts/forensics-pca/>

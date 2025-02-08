@@ -14,7 +14,7 @@ The Program Compatibility Assistant (PCA) is a feature in Windows that helps use
 
 ## Where is PCA Stored?
 
-PCA settings and logs are stored in the Windows registry and in specific log files:
+PCA settings and logs are stored in the Windows registry and following log files:
 
 ```
 c:\Windows\appcompat\pca\PcaGeneralDb0.txt 

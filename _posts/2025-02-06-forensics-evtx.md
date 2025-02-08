@@ -34,6 +34,9 @@ _Events loaded into FullEventLogView_
 
 This data can be also ripped using [**Chainsaw**][chainsaw] which is tool developed by WithSecure Countercept.
 
+![img-description](/assets/img/events-chainsaw.png)
+_Chainsaw_
+
 
 [chainsaw]:<https://github.com/WithSecureLabs/chainsaw>
 [fulleventlogview]: <https://www.nirsoft.net/utils/full_event_log_view.html>
